@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Quiz Concurso - Questões 01 a 10</title>
+<style>
+  body {
+    background-color: #0a1f3d;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px 40px;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+  h1 {
+    color: #0a1f3d;
+    background-color: #c7d3e7;
+    padding: 18px 25px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 35px;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  .question {
+    background-color: #f0f4f8;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .question p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  ul.options {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  ul.options li {
+    margin-bottom: 14px;
+  }
+  label {
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    color: #222;
+    display: flex;
+    align-items: center;
+  }
+  input[type="radio"] {
+    margin-right: 12px;
+    transform: scale(1.15);
+    cursor: pointer;
+  }
+  button#submitBtn {
+    display: block;
+    margin: 0 auto;
+    background-color: #1a5fcc;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 45px;
+    cursor: pointer;
+    box-shadow: 0 3px 7px rgba(26,95,204,0.7);
+    transition: background-color 0.3s ease;
+  }
+  button#submitBtn:hover {
+    background-color: #144a99;
+  }
+  .correct {
+    background-color: #c6f6d5;
+    color: #276749;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 12px;
+    margin-left: 12px;
+    display: inline-block;
+    user-select: none;
+  }
+  .incorrect {
+    background-color: #fed7d7;
+    color: #9b2c2c;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5px 12px;
+    margin-left: 12px;
+    display: inline-block;
+    user-select: none;
+  }
+  #result {
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #dbeafe; /* azul claro */
+    text-shadow: 0 0 5px #1a5fcc;
+  }
+</style>
+</head>
+<body>
+
+<h1>Quiz Concurso - Questões 01 a 10</h1>
+
+<form id="quizForm">
+
+  <div class="question" data-correct="b">
+    <p>1. Um banco comercial atua na intermediação financeira entre os agentes superavitários e os agentes deficitários. Assinale a alternativa que indica corretamente a principal atividade dos bancos comerciais.</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q1" value="a" /> a) Captação de recursos para investimentos em infraestrutura pública.</label></li>
+      <li><label><input type="radio" name="q1" value="b" /> b) Concessão de crédito de curto e médio prazos.</label></li>
+      <li><label><input type="radio" name="q1" value="c" /> c) Aplicação exclusiva em títulos públicos federais.</label></li>
+      <li><label><input type="radio" name="q1" value="d" /> d) Financiamento de longo prazo ao setor produtivo.</label></li>
+      <li><label><input type="radio" name="q1" value="e" /> e) Controle monetário por meio da emissão de moeda.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="d">
+    <p>2. Sobre o Sistema Financeiro Nacional, analise as afirmativas: I. O Conselho Monetário Nacional é o órgão máximo do sistema. II. O Banco Central do Brasil atua como executor das políticas do CMN. III. A CVM regula o mercado de valores mobiliários. Está(ão) correta(s):</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q2" value="a" /> a) Apenas I.</label></li>
+      <li><label><input type="radio" name="q2" value="b" /> b) Apenas II.</label></li>
+      <li><label><input type="radio" name="q2" value="c" /> c) Apenas III.</label></li>
+      <li><label><input type="radio" name="q2" value="d" /> d) I, II e III.</label></li>
+      <li><label><input type="radio" name="q2" value="e" /> e) Nenhuma.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="d">
+    <p>3. Compete ao Conselho Monetário Nacional:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q3" value="a" /> a) Administrar os depósitos compulsórios dos bancos.</label></li>
+      <li><label><input type="radio" name="q3" value="b" /> b) Emitir moeda corrente nacional.</label></li>
+      <li><label><input type="radio" name="q3" value="c" /> c) Executar a política cambial.</label></li>
+      <li><label><input type="radio" name="q3" value="d" /> d) Formular a política da moeda e do crédito.</label></li>
+      <li><label><input type="radio" name="q3" value="e" /> e) Controlar a inflação diretamente.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="c">
+    <p>4. Uma das principais funções do Banco Central do Brasil é:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q4" value="a" /> a) Emitir ações de empresas públicas.</label></li>
+      <li><label><input type="radio" name="q4" value="b" /> b) Fiscalizar o cumprimento das normas contábeis nas empresas privadas.</label></li>
+      <li><label><input type="radio" name="q4" value="c" /> c) Emitir a moeda nacional e controlar o crédito.</label></li>
+      <li><label><input type="radio" name="q4" value="d" /> d) Aprovar o orçamento da União.</label></li>
+      <li><label><input type="radio" name="q4" value="e" /> e) Arrecadar tributos federais.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="d">
+    <p>5. Assinale a alternativa que não representa uma função da Comissão de Valores Mobiliários (CVM):</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q5" value="a" /> a) Estimular a formação de poupança.</label></li>
+      <li><label><input type="radio" name="q5" value="b" /> b) Garantir o funcionamento eficiente do mercado de capitais.</label></li>
+      <li><label><input type="radio" name="q5" value="c" /> c) Proteger os investidores.</label></li>
+      <li><label><input type="radio" name="q5" value="d" /> d) Emitir moeda e controlar o crédito.</label></li>
+      <li><label><input type="radio" name="q5" value="e" /> e) Promover a expansão e funcionamento do mercado de valores mobiliários.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="b">
+    <p>6. Os bancos múltiplos com carteira comercial estão autorizados a:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q6" value="a" /> a) Financiar exclusivamente o setor agrícola.</label></li>
+      <li><label><input type="radio" name="q6" value="b" /> b) Captar depósitos à vista.</label></li>
+      <li><label><input type="radio" name="q6" value="c" /> c) Emitir moeda corrente.</label></li>
+      <li><label><input type="radio" name="q6" value="d" /> d) Operar no mercado de ações como instituição reguladora.</label></li>
+      <li><label><input type="radio" name="q6" value="e" /> e) Controlar a inflação diretamente.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="a">
+    <p>7. O depósito compulsório é:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q7" value="a" /> a) O valor que os bancos são obrigados a manter junto ao Banco Central.</label></li>
+      <li><label><input type="radio" name="q7" value="b" /> b) Um tipo de depósito voluntário feito por poupadores.</label></li>
+      <li><label><input type="radio" name="q7" value="c" /> c) A reserva obrigatória em ouro que os bancos mantêm.</label></li>
+      <li><label><input type="radio" name="q7" value="d" /> d) A taxa de juro paga pelo governo.</label></li>
+      <li><label><input type="radio" name="q7" value="e" /> e) Um imposto sobre movimentações financeiras.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="c">
+    <p>8. O Comitê de Política Monetária (COPOM) tem como uma de suas funções:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q8" value="a" /> a) Emitir moeda metálica.</label></li>
+      <li><label><input type="radio" name="q8" value="b" /> b) Estabelecer metas fiscais do governo.</label></li>
+      <li><label><input type="radio" name="q8" value="c" /> c) Definir a taxa básica de juros (SELIC).</label></li>
+      <li><label><input type="radio" name="q8" value="d" /> d) Controlar a política externa.</label></li>
+      <li><label><input type="radio" name="q8" value="e" /> e) Gerenciar reservas cambiais.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="b">
+    <p>9. Assinale a alternativa que representa uma das atribuições do CRSFN:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q9" value="a" /> a) Executar a política cambial.</label></li>
+      <li><label><input type="radio" name="q9" value="b" /> b) Julgar recursos administrativos contra decisões do BACEN e CVM.</label></li>
+      <li><label><input type="radio" name="q9" value="c" /> c) Controlar a emissão de moeda eletrônica.</label></li>
+      <li><label><input type="radio" name="q9" value="d" /> d) Supervisionar o Sistema de Pagamentos Brasileiro.</label></li>
+      <li><label><input type="radio" name="q9" value="e" /> e) Aplicar multas por descumprimento do código de defesa do consumidor.</label></li>
+    </ul>
+  </div>
+
+  <div class="question" data-correct="c">
+    <p>10. Sobre o Conselho de Recursos do Sistema Financeiro Nacional (CRSFN), é correto afirmar:</p>
+    <ul class="options">
+      <li><label><input type="radio" name="q10" value="a" /> a) É responsável pela arrecadação dos tributos bancários.</label></li>
+      <li><label><input type="radio" name="q10" value="b" /> b) Atua como primeira instância nos processos contra bancos.</label></li>
+      <li><label><input type="radio" name="q10" value="c" /> c) Atua como órgão colegiado em segunda instância administrativa.</label></li>
+      <li><label><input type="radio" name="q10" value="d" /> d) Define a política monetária do país.</label></li>
+      <li><label><input type="radio" name="q10" value="e" /> e) Aprova os projetos de lei relacionados a finanças públicas.</label></li>
+    </ul>
+  </div>
+
+  <button type="button" id="submitBtn">Enviar</button>
+</form>
+
+<div id="result"></div>
+
+<script>
+  document.getElementById('submitBtn').addEventListener('click', function() {
+    const form = document.getElementById('quizForm');
+    const questions = form.querySelectorAll('.question');
+    let score = 0;
+    let total = questions.length;
+    let answeredCount = 0;
+
+    questions.forEach(q => {
+      const correctAnswer = q.getAttribute('data-correct');
+      const selected = q.querySelector('input[type="radio"]:checked');
+
+      // Limpar marcações antigas
+      q.querySelectorAll('label').forEach(label => {
+        label.classList.remove('correct');
+        label.classList.remove('incorrect');
+      });
+
+      if (selected) {
+        answeredCount++;
+        if (selected.value === correctAnswer) {
+          score++;
+          selected.parentElement.classList.add('correct');
+        } else {
+          selected.parentElement.classList.add('incorrect');
+          const correctLabel = q.querySelector(`input[value="${correctAnswer}"]`).parentElement;
+          correctLabel.classList.add('correct');
+        }
+      } else {
+        // Mostrar a resposta correta mesmo se não marcou nada
+        const correctLabel = q.querySelector(`input[value="${correctAnswer}"]`).parentElement;
+        correctLabel.classList.add('correct');
+      }
+    });
+
+    if (answeredCount < total) {
+      alert("Por favor, responda todas as questões antes de enviar.");
+      return;
+    }
+
+    const percent = (score / total) * 100;
+    const resultDiv = document.getElementById('result');
+    resultDiv.textContent = `Sua pontuação: ${score} de ${total} (${percent.toFixed(2)}%)`;
+  });
+</script>
+
+</body>
+</html>
